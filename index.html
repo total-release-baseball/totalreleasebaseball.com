@@ -1,0 +1,33 @@
+<!doctype html>
+<html ng-app="app">
+
+<head>
+	<meta charset="utf-8">
+	<title>Total Release Baseball</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+     <!-- Bootstrap CSS -->
+    <link href="assets/bootstrap/css/sandstone.min.css" rel="stylesheet">
+
+     <!-- Angular -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular-route.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.3.10/angular-strap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-strap/2.3.10/angular-strap.tpl.min.js"></script>    
+</head>
+
+<body>
+    <ng-include src="'app/views/navigation.html'"></ng-include>
+	<ng-view></ng-view>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>    
+
+    <!-- Application scripts -->
+    <script src="app/app.js"></script>    
+</body>
+
+</html>
