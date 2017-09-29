@@ -11,6 +11,9 @@ app.config(function ($routeProvider) {
         .when("/about", {
             templateUrl: "app/views/about.html"
         })
+        .when("/services-and-pricing", {
+            templateUrl: "app/views/services-and-pricing.html"
+        })
         .when("/lessons-and-clinics", {
             templateUrl: "app/views/lessons-and-clinics.html"
         })
