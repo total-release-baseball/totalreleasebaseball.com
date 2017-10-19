@@ -14,14 +14,8 @@ app.config(function ($routeProvider) {
         .when("/services-and-pricing", {
             templateUrl: "app/views/services-and-pricing.html"
         })
-        .when("/lessons-and-clinics", {
-            templateUrl: "app/views/lessons-and-clinics.html"
-        })
         .when("/calendar", {
             templateUrl: "app/views/calendar.html"
-        })
-        .when("/teams", {
-            templateUrl: "app/views/teams.html"
         })
         .otherwise({
             redirectTo: '/'
