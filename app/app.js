@@ -8,14 +8,23 @@ app.config(function ($routeProvider) {
         .when("/", {
             templateUrl: "app/views/home.html"
         })
-        .when("/about", {
-            templateUrl: "app/views/about.html"
+        .when("/bio", {
+            templateUrl: "app/views/bio.html"
+        })
+        .when("/clinics", {
+            templateUrl: "app/views/clinics.html"
+        })
+        .when("/facilities", {
+            templateUrl: "app/views/facilities.html"
         })
         .when("/services-and-pricing", {
             templateUrl: "app/views/services-and-pricing.html"
         })
         .when("/calendar", {
             templateUrl: "app/views/calendar.html"
+        })
+        .when("/contact", {
+            templateUrl: "app/views/contact.html"
         })
         .otherwise({
             redirectTo: '/'
